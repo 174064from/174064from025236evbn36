@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>我的PDF展示页</title>
+    <meta charset="UTF-8">
+    <title>PDF 预览</title>
+    <!-- 可选：设置 iframe 大小，避免空白 -->
     <style>
-        body, html { margin:0; padding:0; height:100%; }
-        iframe { width:100%; height:100%; border:none; }
+        iframe { width: 100%; height: 800px; }
     </style>
 </head>
 <body>
-    <iframe src="./show.pdf"></iframe>
+    <iframe src="./show.pdf" type="application/pdf"></iframe>
 </body>
 </html>
